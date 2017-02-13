@@ -1,0 +1,23 @@
+nik_:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the nik_ theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the nik_.libraries.yml file.'
+    scss:
+      style/css/nik_.css: 'style/scss/nik_.scss'
+  version: VERSION
+  js:
+    js/nik_.js: {}
+  css:
+    theme:
+      style/css/nik_.css: {}
+  dependencies:
+    - core/modernizr
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/backbone
+    - core/matchmedia
+    - core/jquery.once
+

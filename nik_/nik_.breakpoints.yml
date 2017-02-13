@@ -1,0 +1,54 @@
+nik_.default.all:
+  label: All
+  mediaQuery: 'all and (min-width: 0px)'
+  weight: 0
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: nik_.default
+nik_.default.mobile_portrait:
+  label: Mobile Portrait
+  mediaQuery: 'all and (max-width: 479px)'
+  weight: 1
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: nik_.default
+nik_.default.mobile_landscape:
+  label: Mobile Landscape
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 767px)'
+  weight: 2
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: nik_.default
+nik_.default.narrow:
+  label: Narrow
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1023px)'
+  weight: 3
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: nik_.default
+nik_.default.normal:
+  label: Normal
+  mediaQuery: 'all and (min-width: 1024px) and (max-width: 1219px)'
+  weight: 4
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: nik_.default
+nik_.default.wide:
+  label: Wide
+  mediaQuery: 'all and (min-width: 1220px)'
+  weight: 5
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: nik_.default
